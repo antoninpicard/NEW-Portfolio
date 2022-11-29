@@ -1,0 +1,17 @@
+{
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/html/404.html"
+    }
+  },
+  "routes": [
+    {
+      "route": "/en-us",
+      "rewrite": "/html/en.html"
+    },
+    {
+        "route": "/fr-fr",
+        "rewrite": "/index.html"
+    }
+  ]
+}
