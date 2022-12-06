@@ -1,4 +1,5 @@
 {
+  
   "responseOverrides": {
     "404": {
       "rewrite": "/html/404.html"
@@ -12,6 +13,10 @@
     {
         "route": "/fr-fr",
         "rewrite": "/index.html"
+    },
+    {
+      "route": "/snake",
+      "rewrite": "/html/easteregg.html"
     }
   ]
 }
